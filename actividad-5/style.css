@@ -1,0 +1,28 @@
+/*por tag*/
+h2 {color: red; font-size: 36pt;}
+p {color: blue; font-family: monospace;}
+
+/* por id */
+#titulo-1 {font-style: italic}
+#titulo-2 {font-weight: bold; }
+
+/* por clase */
+.ultimo {color: green;}
+.base { border: 3px dashed orange; 
+padding: 1em 2em; margin: 2em 1em;}
+
+/*combinado*/
+p.ultimo {color:blueviolet}
+.par.ultimo {font-weight: bold;}
+
+/*alternativas*/
+h2, h3 {color: cornflowerblue; font-size: 36pt;}
+
+/*descendiente directo*/
+.base > h2 { text-align: right; }
+.base > p.par > span { text-decoration: underline; }
+
+/*descendiente indirecto*/
+.base .ejemplo { font-family: sans-serif; }
+
+/* Esto es un comentario */
