@@ -1,0 +1,8 @@
+@import url('https:/fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap');
+html,body{height:100%}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+h1{font-family: 'Raleway', sans-serif;}
+body{font-family: 'Oswald', sans-serif; font-weight: lighter; color: white;}
+.main-title{text-align: center; color: rgb(255, 179, 0); text-shadow: 2px 2px rgba(0, 0, 0, 0.664);
+transform: rotate(-2deg);}
+.card{text-align: center; background-color: rgb(34, 34, 33);}
